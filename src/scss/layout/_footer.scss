@@ -1,1 +1,30 @@
+.page__footer{
+    background-color: #4a4a4a;
+    color: white;
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: center;
+    align-items: center;
+    padding: 40px;
+    line-height: 2; 
 
+   a{
+    color: white;
+   }
+
+}
+
+.items, .social{
+    list-style: none;
+    text-align: center;
+    padding-bottom: 40px;
+}
+
+.copy{
+    text-align: center;
+    padding-top: 10px;
+}
+
+.social{
+    padding-top: 20px;
+}

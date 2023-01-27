@@ -39,16 +39,16 @@
 
 //PARTE INFERIOR DEL MAIN
 
-.grey-back{ //EL H2 Y EL H3 NO ENTRAN MEDIDAS COMO EN ZEPLIN (DEJO POR DEFECTO)
+.grey-back{ 
+
+    //LOS TITULOS Y SUBTITULOS NO QUEDAN IGUAL NI CON H2 Y H3 NI AJUSTANDO MEDIDAS (ZEPLIN) EN P
+
     background-color: #f2f2f2;
     padding: 60px 100px 0px 100px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+    display: grid;
     line-height: 2;
 
-    h2, h3{
+    .subtitle, .intro{
         font-weight: bold;
         text-align: center;
     }
@@ -57,12 +57,21 @@
         font-family: Roboto;
         font-size: 18px;
         text-align: center;
+        color: black;
     }
 
     div{
         padding: 30px 0 30px 0;        
     }
     
+}
+
+.subtitle{
+    font-size: 20px;
+}
+
+.intro{
+    font-size: 18px;
 }
 
 .begin{ //NO CENTRA EL BOTON
@@ -86,8 +95,10 @@
 }
 
 .arrow-up{
-    padding-top: 50px;
-    border: 2px solid #f2f2f2;
-    background-color: #f2f2f2;
+    margin-top: 50px;
+    padding: 20px;
+    border: 2px solid white;
+    background-color: white;
     border-radius: 50%;
+    transform: translate(200%, 30px);
 }
