@@ -8,4 +8,16 @@
     font-family: RobotoSlab;    
 }
 
-//MENOS DE 520PX NO SE VE CORRECTAMENTE
+.navigation_logo {
+    background-color: #f26002;
+    width: 32px;
+    height: 38px;
+    box-sizing: border-box;
+    padding: 10px 20px 10px 20px;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    position: sticky;
+    top: 0;
+    z-index: 2;
+}

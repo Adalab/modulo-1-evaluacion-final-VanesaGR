@@ -1,55 +1,41 @@
-.navigation_logo {
-  background-color: #f26002;
-  width: 32px;
-  height: 38px;
-  box-sizing: border-box;
-  padding: 10px 20px 10px 20px;
-  display: flex;
-  justify-content: center;
-  align-content: center;
-  position: sticky;
-  top: 0;
-  z-index: 2;
-}
 
-hero{  //LAS LETRAS SE MUEVEN UN POCO AL HACER SCROLL PERO NO CONSIGO SABER POR QUÉ
+
+hero {
   height: 100vh;
   width: 100vw;
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  align-items: center;  
+  align-items: center;
   align-content: flex-end;
 }
 
-h1{
+h1 {
   font-size: 78px;
   font-weight: bold;
   text-align: center;
   padding: 20px;
 }
 
-h2{
+h2 {
   font-size: 24px;
   text-align: center;
   margin-bottom: 30px;
 }
 
-//SERIAS DIFICULTADES PARA AJUSTAR FLECHA
-
-.arrow-down{ 
-  width: 15%;
-  height: 8%;
+.arrow-down {
+  width: 8%;
+  height: 5%;
   margin-top: 20px;
   margin-bottom: 20px;
-  margin-left: 40%;
+  margin-left: 45%;
   padding: 15px;
   border-radius: 50%;
   background-color: white;
-  border:2px solid white;
+  border: 2px solid white;
 }
 
-.runner{
+.runner {
   width: 100%;
   height: 100%;
   z-index: 0;
@@ -58,9 +44,11 @@ h2{
   left: 0;
 }
 
-.intro{
+.intro {
   z-index: 2;
   position: sticky;
   color: white;
 }
+
+
 

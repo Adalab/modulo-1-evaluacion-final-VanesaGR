@@ -1,4 +1,4 @@
-.page__footer{
+.page__footer {
     background-color: #4a4a4a;
     color: white;
     display: flex;
@@ -6,38 +6,40 @@
     justify-content: center;
     align-items: center;
     padding: 40px;
-    line-height: 2; 
+    line-height: 2;
 
-   a{
-    color: white;
-   }
+    a {
+        color: white;
+        text-decoration: none;
+    }
 
 }
 
-.items, .social{
+.items, .social {
     list-style: none;
     text-align: center;
     padding-bottom: 40px;
     font-size: 16px;
 }
 
-.copy{
+.copy {
     text-align: center;
     padding-top: 10px;
     font-size: 14px;
 }
 
-.social{
+.social {
     padding-top: 20px;
 }
 
-@media all and(min-width:768px){
 
-    .page__footer{
+@media all and(min-width:768px) {
+
+    .page__footer {
         display: flex;
         flex-direction: row;
         justify-content: space-around;
-        padding:50px;
+        padding: 50px;
         padding-top: 80px;
     }
 }

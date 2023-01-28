@@ -1,29 +1,29 @@
 //PARTE SUPERIOR DEL MAIN
 
-.tip{
+.tip {
     font-size: 16px;
-    color:#f26002;
+    color: #f26002;
     font-family: Roboto;
 }
 
-.connect{
+.connect {
     font-size: 32px;
     font-weight: bold;
     padding-top: 30px;
 }
 
-.main-text{
+.main-text {
     font-size: 20px;
     padding-top: 12px;
     font-family: Roboto;
     padding-bottom: 31px;
 }
 
-.white-back{
-    margin:37px 51px 39px 37px;
+.white-back {
+    margin: 37px 51px 39px 37px;
 }
 
-.buying-button{
+.buying-button {
     font-family: Roboto;
     font-size: 20px;
     font-weight: bold;
@@ -39,46 +39,43 @@
 
 //PARTE INFERIOR DEL MAIN
 
-.grey-back{ 
-
-    //LOS TITULOS Y SUBTITULOS NO QUEDAN IGUAL NI CON H2 Y H3 NI AJUSTANDO MEDIDAS (ZEPLIN) EN P
-
+.grey-back {
     background-color: #f2f2f2;
     padding: 60px 100px 0px 100px;
     display: grid;
     justify-content: center;
     align-content: center;
-    line-height: 2;   
+    line-height: 2;
 
-    p{
+    p {
         font-family: Roboto;
         font-size: 18px;
         text-align: center;
         color: black;
     }
 
-    div{
-        padding: 30px 0 30px 0;        
+    div {
+        padding: 30px 0 30px 0;
     }
-    
+
     .subtitle,.intro {
         font-weight: bold;
         text-align: center;
     }
-    
+
     .subtitle {
         font-size: 20px;
     }
 }
 
-.intro{
+.intro {
     font-size: 18px;
 }
 
-.begin{ //NO CENTRA EL BOTON Y NO SÉ POR QUÉ
+.begin {
     font-family: Roboto;
     font-size: 20px;
-    font-weight: bold; 
+    font-weight: bold;
     background-color: #f26002;
     border: 3px solid #f26002;
     color: white;
@@ -88,60 +85,60 @@
     margin-bottom: 50px;
 }
 
-.exclusive{
+.exclusive {
     margin-bottom: 50px;
 }
 
-.arrow-up{
+.arrow-up {
     padding: 20px;
     border: 2px solid white;
     background-color: white;
     border-radius: 50%;
-    transform: translate(120px, 40px);
-    //ES POSIBLE QUE NO ESTE BIEN CENTRADO
+    transform:translate(50%,50%);
 }
 
-@media all and(min-width:768px){
-    .grey-back{
+@media all and(min-width:768px) {
+    .grey-back {
         display: grid;
         grid-template-columns: repeat(12, 1fr);
-        grid-template-rows: 20% 60% 20%;
+        grid-template-rows: 20% 40% 20%;
         padding-bottom: 50px;
     }
 
-    .subtitle{
+    .subtitle {
         grid-area: 1/1/2/13;
         font-size: 28px;
     }
 
-    .training{
+    .training {
         grid-area: 2/1/3/5;
     }
 
-    .level{
+    .level {
         grid-area: 2/5/3/9;
     }
 
-    .exclusive{
+    .exclusive {
         grid-area: 2/9/3/13;
     }
 
-    .begin{
+    .begin {
         grid-area: 3/5/3/9;
         height: 45px;
+        margin-top: 40px;
     }
 
-    .arrow-up {     
-        //ES POSIBLE QUE NO ESTE BIEN CENTRADO   
-        transform: translate(280px, 80px);            
-    }    
+    .arrow-up {   
+        position: relative;
+        left: 50%;
+        bottom: 0;
+    }
 
 }
 
-@media all and(min-width:1200px){
-    //NO ESTA BIEN CENTRADO
+@media all and(min-width:1200px) {
     
-    .arrow-up{
+    .arrow-up {
         transform: translate(620px, 80px);
     }
 }
