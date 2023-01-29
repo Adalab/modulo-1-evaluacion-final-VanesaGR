@@ -1,8 +1,15 @@
+:root{
+    --corporate-color: #f26002;
+    --background-color:#f2f2f2;
+    --title-color: white;
+    --main-text-color:black;
+}
+
 //PARTE SUPERIOR DEL MAIN
 
 .tip {
     font-size: 16px;
-    color: #f26002;
+    color: var(--corporate-color);
     font-family: Roboto;
 }
 
@@ -30,8 +37,8 @@
     font-weight: bold;
     width: 137px;
     height: 45px;
-    color: #f26002;
-    border: 3px solid #f26002;
+    color: var(--corporate-color);
+    border: 3px solid var(--corporate-color);
     padding: 10px 40px 10px 40px;
     text-align: center;
     vertical-align: middle;
@@ -41,13 +48,13 @@
 //PARTE INFERIOR DEL MAIN
 
 .grey-back {
-    background-color: #f2f2f2;
+    background-color: var(--background-color);
     padding: 60px 100px 0px 100px;
     display: grid;
     justify-content: center;
     align-content: center;
     line-height: 2;
-    z-index: 1;    
+    z-index: 0;    
 
     div {
         padding: 30px 0 30px 0;
@@ -58,14 +65,14 @@
 .subtitle, .intro {
     font-weight: bold;
     text-align: center;
-    color: black;
+    color: var(--main-text-color);
 }
 
 .text {
     font-family: Roboto;
     font-size: 18px;
     text-align: center;
-    color: black;
+    color: var(--main-text-color);
 }
 
 .subtitle {
@@ -80,9 +87,9 @@
     font-family: Roboto;
     font-size: 20px;
     font-weight: bold;
-    background-color: #f26002;
-    border: 3px solid #f26002;
-    color: white;
+    background-color: var(--corporate-color);
+    border: 3px solid var(--corporate-color);
+    color: var(--title-color);
     text-align: center;
     vertical-align: middle;
     border-radius: 60px;
@@ -97,15 +104,17 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    background-color: var(--background-color);
 }
 
 .arrow-up {
     padding: 20px;
-    border: 2px solid white;
-    background-color: white;
+    border: 2px solid var(--title-color);
+    background-color: var(--title-color);
+    //el color de fondo es igual que el color del título
     border-radius: 50%;
-    transform:translate(50%,50%);
-    z-index: 2;
+    transform:translate(10%,50%);
+    z-index: 1;
 }
 
 @media all and(min-width:768px) {
@@ -140,7 +149,7 @@
     }
 
     .arrow-up {   
-        transform: translate(50%, 50%);
+        transform: translate(10%, 50%);
     }
 
     .intro{
