@@ -21,6 +21,7 @@
 
 .white-back {
     margin: 37px 53px 39px 37px;
+    padding-left: 30px;
 }
 
 .buying-button {
@@ -90,6 +91,12 @@
 
 .exclusive {
     margin-bottom: 50px;
+}
+
+.main-arrow{
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .arrow-up {
