@@ -43,6 +43,11 @@
     text-align: center;
     vertical-align: middle;
     border-radius: 22.5px;
+    
+}
+//el hover no entra a pesar de que la sintaxis es la correcta
+.buying-button:hover{
+    transform: scale(1.5);
 }
 
 //PARTE INFERIOR DEL MAIN
@@ -94,6 +99,10 @@
     vertical-align: middle;
     border-radius: 60px;
     margin-bottom: 50px;
+}
+//el hover entra al hacer clic en el botón y se quita al hacer clic fuera (no entra correctamente)
+.begin:hover{
+    transform: scale(1.5);
 }
 
 .exclusive {
