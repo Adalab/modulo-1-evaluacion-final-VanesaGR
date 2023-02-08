@@ -1,4 +1,4 @@
-hero {
+.hero {
   height: 100vh;
   width: 100vw;
   display: flex;
@@ -8,14 +8,16 @@ hero {
   align-content: flex-end;
 }
 
-h1 {
-  font-size: 78px;
+.main-title {
+  font-family: RobotoSlabBold;
+  font-size: 30px;
   font-weight: bold;
   text-align: center;
   padding: 20px;
+  text-transform: uppercase;
 }
 
-h2 {
+.offer {
   font-size: 24px;
   text-align: center;
   margin-bottom: 30px;
@@ -53,6 +55,25 @@ h2 {
   position: sticky;
 }
 
-.main-title, h2{
+.main-title, .offer{
   color: white;
+}
+
+.tip{
+  font-size: 14px;
+  font-family: Roboto;
+  line-height: 30px;
+  font-weight: normal;
+}
+
+@media all and(min-width:768px){
+  .main-title{
+    font-size: 75px;
+  }
+}
+
+@media all and(min-width: 1200ps){
+  .main-title{
+    font-size: 100px;
+  }
 }

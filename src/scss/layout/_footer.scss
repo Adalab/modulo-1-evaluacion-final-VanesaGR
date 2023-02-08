@@ -11,6 +11,7 @@
     a {
         color: white;
         text-decoration: none;
+        text-transform: uppercase;
     }
 
 }
@@ -24,7 +25,8 @@
 
 .copy {
     text-align: center;
-    padding-top: 10px;
+    padding-top: 20px;
+    padding-bottom: 40px;
     font-size: 14px;
 }
 
@@ -38,8 +40,22 @@
     .page__footer {
         display: flex;
         flex-direction: row;
+        flex-wrap: nowrap;
         justify-content: space-around;
-        padding: 50px;
-        padding-top: 80px;
+        // padding: 50px;
+        // padding-top: 80px;        
     }
+
+    .copy, .items, .social{
+        text-align: left;
+    }
+
+    .items{
+        order: 2;
+    }
+
+    .social{
+        order: 3;
+    }
+
 }
